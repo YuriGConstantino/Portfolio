@@ -1,15 +1,12 @@
-import "./App.css";
-import { Header } from "./containers/Header";
-import { Hero } from "./containers/Hero";
-
+import './App.css'
+import { Home } from './pages/Home'
 
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
+      <Home />
     </>
   )
 }
 
-export default App;
+export default App
