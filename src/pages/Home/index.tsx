@@ -1,4 +1,5 @@
 import { About } from '../../containers/About'
+import { Contact } from '../../containers/Contact'
 import { Header } from '../../containers/Header'
 import { Hero } from '../../containers/Hero'
 import { MyProjects } from '../../containers/MyProjects'
@@ -13,6 +14,7 @@ export const Home = () => {
         <About />
         <Skills />
         <MyProjects />
+        <Contact />
       </main>
     </>
   )
