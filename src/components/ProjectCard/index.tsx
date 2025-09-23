@@ -35,7 +35,7 @@ export const ProjectCard = ({
         threshold={0.2}
         delay={delay}
       >
-        <div className="flex flex-col h-full group overflow-hidden rounded-lg bg-gray-800">
+        <div className="group flex h-full flex-col overflow-hidden rounded-lg bg-gray-800">
           <img
             src={image}
             alt={title}
@@ -56,22 +56,24 @@ export const ProjectCard = ({
             </div>
             <div className="mt-auto flex justify-around gap-4">
               <Button
+                type="link"
                 href={demo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 font-medium text-sky-400 hover:text-white"
+                className="flex cursor-pointer items-center gap-2 font-medium text-sky-400 hover:text-white"
               >
                 Ver Demo
                 <ExternalLink width={20} />
               </Button>
               <Button
+                type="link"
                 href={repositorie}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 font-medium text-sky-400 hover:text-white"
+                className="flex cursor-pointer items-center gap-2 font-medium text-sky-400 hover:text-white"
               >
                 Repositório
-                <Folder width={20}/>
+                <Folder width={20} />
               </Button>
             </div>
           </div>
