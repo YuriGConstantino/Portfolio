@@ -29,12 +29,14 @@ export const Hero = () => {
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Button
+            type="link"
             href="#projects"
-            className="bg-accent-color transform rounded-lg px-8 py-3 font-bold text-gray-900 transition-transform duration-300 hover:scale-105 hover:bg-sky-500"
+            className="bg-accent transform rounded-lg px-8 py-3 font-bold text-gray-900 transition-transform duration-300 hover:scale-105 hover:bg-sky-500"
           >
             Ver Projetos
           </Button>
           <Button
+            type="link"
             href="#contact"
             className="transform rounded-lg border border-gray-700 bg-gray-800 px-8 py-3 font-bold text-white transition-transform duration-300 hover:scale-105 hover:bg-gray-700"
           >
@@ -43,6 +45,7 @@ export const Hero = () => {
         </div>
         <div className="mt-12 flex justify-center gap-6">
           <Button
+            type="link"
             href="https://github.com/YuriGConstantino"
             target="_blank"
             rel="noopener noreferrer"
@@ -67,6 +70,7 @@ export const Hero = () => {
             </svg>
           </Button>
           <Button
+            type="link"
             href="https://www.linkedin.com/in/yurigabrielconstantino/"
             target="_blank"
             rel="noopener noreferrer"

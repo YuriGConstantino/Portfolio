@@ -1,7 +1,7 @@
 import React from 'react'
 
 type Props = {
-  type?: 'button' | 'submit'
+  type: 'button' | 'submit' | 'link'
   className: string
   href?: string
   target?: string
