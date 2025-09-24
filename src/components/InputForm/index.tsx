@@ -8,13 +8,13 @@ export const InputForm = ({ label, type, name }: Props) => {
   if (name === 'message') {
     return (
       <div className="mb-5">
-        <label htmlFor={name} className="mb-2 block text-gray-300">
+        <label htmlFor={name} className="text-input-color mb-2 block">
           {label}
         </label>
         <textarea
           id={name}
           name={name}
-          className="w-full h-50 resize-none rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white focus:border-sky-500 focus:outline-none"
+          className="bg-gray-8 border-gray-7 focus:border-accent-focus text-primary-color h-50 w-full resize-none rounded-lg border px-4 py-3 focus:outline-none"
           required
         ></textarea>
       </div>
@@ -23,14 +23,14 @@ export const InputForm = ({ label, type, name }: Props) => {
   return (
     <>
       <div className="mb-4">
-        <label htmlFor={name} className="mb-2 block text-gray-300">
+        <label htmlFor={name} className="text-input-color mb-2 block">
           {label}
         </label>
         <input
           type={type}
           id={name}
           name={name}
-          className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white focus:border-sky-500 focus:outline-none"
+          className="bg-gray-8 border-gray-7 focus:border-accent-focus text-primary-color w-full rounded-lg border px-4 py-3 focus:outline-none"
           required
         />
       </div>

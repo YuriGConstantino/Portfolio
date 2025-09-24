@@ -11,10 +11,7 @@ export const About = () => {
         initialOpacity={0}
         threshold={0.5}
       >
-        <section
-          id="about"
-          className="bg-gray-950 py-10 md:py-32"
-        >
+        <section id="about" className="bg-secondary-background py-10 md:py-32">
           <AnimatedContent
             distance={200}
             direction="vertical"
@@ -37,17 +34,17 @@ export const About = () => {
                   />
                 </div>
                 <div className="md:col-span-3">
-                  <h2 className="mb-4 text-3xl font-bold text-white md:text-4xl">
+                  <h2 className="text-primary-color mb-4 text-3xl font-bold md:text-4xl">
                     Sobre Mim
                   </h2>
-                  <p className="mb-4 text-gray-400">
+                  <p className="text-secondary-color mb-4">
                     Olá! Sou um desenvolvedor full-stack apaixonado por
                     tecnologia e por transformar ideias em realidade digital.
                     Tenho experiência com o ecossistema JavaScript, construindo
                     interfaces de usuário interativas com React e desenvolvendo
                     o lado do servidor.
                   </p>
-                  <p className="mb-4 text-gray-400">
+                  <p className="text-secondary-color mb-4">
                     Busco constantemente aprender novas tecnologias para
                     aprimorar minhas habilidades. Atualmente, estou expandindo
                     meus conhecimentos em{' '}
@@ -57,7 +54,7 @@ export const About = () => {
                     , com o objetivo de aplicá-lo em análise de dados e
                     desenvolvimento back-end.
                   </p>
-                  <p className="text-gray-400">
+                  <p className="text-secondary-color">
                     Estou animado para colaborar em projetos desafiadores e
                     contribuir para a criação de produtos incríveis.
                   </p>

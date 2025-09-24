@@ -35,20 +35,22 @@ export const ProjectCard = ({
         threshold={0.2}
         delay={delay}
       >
-        <div className="group flex h-full flex-col overflow-hidden rounded-lg bg-gray-800">
+        <div className="group bg-gray-8 flex h-full flex-col overflow-hidden rounded-lg">
           <img
             src={image}
             alt={title}
             className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
           />
           <div className="p-6">
-            <h3 className="mb-2 text-xl font-bold text-white">{title}</h3>
-            <p className="mb-4 text-gray-400">{description}</p>
+            <h3 className="text-primary-color mb-2 text-xl font-bold">
+              {title}
+            </h3>
+            <p className="text-secondary-color mb-4">{description}</p>
             <div className="mb-4 flex flex-wrap gap-2">
               {tag.map((tags, index) => (
                 <span
                   key={index}
-                  className="rounded-full bg-sky-900/50 px-2.5 py-1 text-xs font-semibold text-sky-300"
+                  className="bg-tag-backgroud/50 text-tag-text rounded-full px-2.5 py-1 text-xs font-semibold"
                 >
                   {tags}
                 </span>
@@ -60,7 +62,7 @@ export const ProjectCard = ({
                 href={demo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex cursor-pointer items-center gap-2 font-medium text-sky-400 hover:text-white"
+                className="hover:text-primary-color text-card-link flex cursor-pointer items-center gap-2 font-medium"
               >
                 Ver Demo
                 <ExternalLink width={20} />
@@ -70,7 +72,7 @@ export const ProjectCard = ({
                 href={repositorie}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex cursor-pointer items-center gap-2 font-medium text-sky-400 hover:text-white"
+                className="hover:text-primary-color text-card-link flex cursor-pointer items-center gap-2 font-medium"
               >
                 Repositório
                 <Folder width={20} />

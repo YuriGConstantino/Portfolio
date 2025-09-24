@@ -8,7 +8,7 @@ export const Hero = () => {
         id="hero"
         className="container mx-auto px-6 py-20 text-center md:py-75"
       >
-        <h1 className="text-2xl leading-tight font-bold text-white md:text-5xl">
+        <h1 className="text-primary-color text-2xl leading-tight font-bold md:text-5xl">
           <SplitText
             text="Desenvolvedor Full-Stack"
             className=""
@@ -23,7 +23,7 @@ export const Hero = () => {
             textAlign="center"
           />
         </h1>
-        <p className="mx-auto mt-4 max-w-3xl text-lg text-gray-400 md:text-xl">
+        <p className="text-secondary-color mx-auto mt-4 max-w-3xl text-lg md:text-xl">
           Criando soluções web inovadoras e eficientes, com foco em design
           responsivo e experiências de usuário memoráveis.
         </p>
@@ -31,14 +31,14 @@ export const Hero = () => {
           <Button
             type="link"
             href="#projects"
-            className="bg-accent transform rounded-lg px-8 py-3 font-bold text-gray-900 transition-transform duration-300 hover:scale-105 hover:bg-sky-500"
+            className="bg-accent text-gray-9 hover:bg-accent-focus transform rounded-lg px-8 py-3 font-bold transition-transform duration-300 hover:scale-105"
           >
             Ver Projetos
           </Button>
           <Button
             type="link"
             href="#contact"
-            className="transform rounded-lg border border-gray-700 bg-gray-800 px-8 py-3 font-bold text-white transition-transform duration-300 hover:scale-105 hover:bg-gray-700"
+            className="bg-gray-8 border-gray-7 hover:bg-gray-7 text-primary-color transform rounded-lg border px-8 py-3 font-bold transition-transform duration-300 hover:scale-105"
           >
             Entrar em Contato
           </Button>
@@ -49,7 +49,7 @@ export const Hero = () => {
             href="https://github.com/YuriGConstantino"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-accent-color text-gray-400 transition-colors duration-300"
+            className="hover:text-accent-color text-secondary-color transition-colors duration-300"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@ export const Hero = () => {
             href="https://www.linkedin.com/in/yurigabrielconstantino/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-accent-color text-gray-400 transition-colors duration-300"
+            className="hover:text-accent-color text-secondary-color transition-colors duration-300"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

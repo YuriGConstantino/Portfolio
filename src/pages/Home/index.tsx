@@ -15,7 +15,7 @@ export const Home = () => {
     <>
       <div className={theme ? 'light' : ''}>
         <Header theme={theme} chargeTheme={chargeTheme} />
-        <main className="py-24">
+        <main className="py-24 bg-background">
           <Hero />
           <About />
           <Skills />

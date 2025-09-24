@@ -12,28 +12,28 @@ export const NavMobile = ({ className, onClick }: Props) => {
         <Button
           type="link"
           href="#about"
-          className="block px-6 py-2 text-gray-300 hover:bg-gray-800"
+          className="hover:bg-gray-8 text-input-color block px-6 py-2"
         >
           Sobre
         </Button>
         <Button
           type="link"
           href="#skills"
-          className="block px-6 py-2 text-gray-300 hover:bg-gray-800"
+          className="hover:bg-gray-8 text-input-color block px-6 py-2"
         >
           Habilidades
         </Button>
         <Button
           type="link"
           href="#projects"
-          className="block px-6 py-2 text-gray-300 hover:bg-gray-800"
+          className="hover:bg-gray-8 text-input-color block px-6 py-2"
         >
           Projetos
         </Button>
         <Button
           type="link"
           href="#contact"
-          className="block px-6 py-2 text-gray-300 hover:bg-gray-800"
+          className="hover:bg-gray-8 text-input-color block px-6 py-2"
         >
           Contato
         </Button>

@@ -13,7 +13,7 @@ export const Card = ({ src, skill, delay }: Props) => {
         distance={50}
         direction="vertical"
         reverse={false}
-        duration= {0.5}
+        duration={0.5}
         ease="power3.out"
         initialOpacity={0}
         animateOpacity
@@ -21,9 +21,9 @@ export const Card = ({ src, skill, delay }: Props) => {
         threshold={0.3}
         delay={delay}
       >
-        <div className="flex flex-col items-center justify-center gap-2 rounded-lg bg-gray-800 p-6 transition-all duration-300 hover:bg-gray-700/50">
+        <div className="bg-gray-8 hover:bg-gray-7/50 flex flex-col items-center justify-center gap-2 rounded-lg p-6 transition-all duration-300">
           <img src={src} alt={skill} className="h-12 w-12" />
-          <span className="font-medium text-white">{skill}</span>
+          <span className="text-primary-color font-medium">{skill}</span>
         </div>
       </AnimatedContent>
     </>

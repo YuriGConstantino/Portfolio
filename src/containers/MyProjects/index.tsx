@@ -55,13 +55,13 @@ export const MyProjects = () => {
       >
         <section
           id="projects"
-          className="bg-gray-950 py-20 md:py-32"
+          className="bg-secondary-background py-20 md:py-32"
         >
           <div className="container mx-auto px-6">
-            <h2 className="mb-2 text-center text-3xl font-bold text-white md:text-4xl">
+            <h2 className="text-primary-color mb-2 text-center text-3xl font-bold md:text-4xl">
               Meus Projetos
             </h2>
-            <p className="mx-auto mb-12 max-w-2xl text-center text-gray-400">
+            <p className="text-secondary-color mx-auto mb-12 max-w-2xl text-center">
               Uma seleção de projetos que desenvolvi.
             </p>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
