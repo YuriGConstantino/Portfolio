@@ -65,7 +65,7 @@ export const ProjectCard = ({
                 className="hover:text-primary-color text-card-link flex cursor-pointer items-center gap-2 font-medium"
               >
                 Ver Demo
-                <ExternalLink width={20} />
+                <ExternalLink width={18} />
               </Button>
               <Button
                 type="link"
@@ -75,7 +75,7 @@ export const ProjectCard = ({
                 className="hover:text-primary-color text-card-link flex cursor-pointer items-center gap-2 font-medium"
               >
                 Repositório
-                <Folder width={20} />
+                <Folder width={18} />
               </Button>
             </div>
           </div>
