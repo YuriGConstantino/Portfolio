@@ -1,59 +1,11 @@
 import FadeContent from '../../blocks/Animations/FadeContent/FadeContent'
 import { Card } from '../../components/Card'
+import skills from '../../data/skills'
 
 export const Skills = () => {
-  const skills = [
-    {
-      src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg',
-      skill: 'HTML5',
-      delay: 0.1
-    },
-    {
-      src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
-      skill: 'CSS3',
-      delay: 0.2
-    },
-    {
-      src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg',
-      skill: 'Bootstrap',
-      delay: 0.3
-    },
-    {
-      src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg',
-      skill: 'Sass',
-      delay: 0.4
-    },
-    {
-      src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg',
-      skill: 'JavaScript',
-      delay: 0.5
-    },
-    {
-      src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg',
-      skill: 'jQuery',
-      delay: 0.6
-    },
-    {
-      src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gulp/gulp-plain.svg',
-      skill: 'Gulp',
-      delay: 0.7
-    },
-    {
-      src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grunt/grunt-original.svg',
-      skill: 'Grunt',
-      delay: 0.8
-    },
-    {
-      src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg',
-      skill: 'TypeScript',
-      delay: 0.9
-    },
-    {
-      src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
-      skill: 'React',
-      delay: 1
-    }
-  ]
+  function getDelay(index: number): number {
+  return 0.1 + index * 0.1;
+}
   return (
     <>
       <FadeContent
@@ -77,7 +29,7 @@ export const Skills = () => {
                   key={index}
                   src={skill.src}
                   skill={skill.skill}
-                  delay={skill.delay}
+                  delay={getDelay(index)}
                 />
               ))}
             </div>
