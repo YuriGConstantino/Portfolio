@@ -53,7 +53,7 @@ export const Header = ({ theme, chargeTheme }: Props) => {
             type="button"
             className={
               mobileMenu
-                ? 'absolute right-3 bottom-3 block cursor-pointer'
+                ? 'absolute right-3 bottom-3 block cursor-pointer text-input-color'
                 : 'hidden md:hidden'
             }
             onClick={chargeTheme}

@@ -38,7 +38,7 @@ export const Hero = () => {
           <Button
             type="link"
             href="#contact"
-            className="bg-gray-8 border-gray-7 hover:bg-gray-7 text-primary-color transform rounded-lg border px-8 py-3 font-bold transition-transform duration-300 hover:scale-105"
+            className="bg-gray-8 border-gray-7 hover:bg-gray-7 hover:text-primary-accent-color text-primary-color transform rounded-lg border px-8 py-3 font-bold transition-transform duration-300 hover:scale-105"
           >
             Entrar em Contato
           </Button>

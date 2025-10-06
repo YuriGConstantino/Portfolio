@@ -35,7 +35,7 @@ export const ProjectCard = ({
         threshold={0.2}
         delay={delay}
       >
-        <div className="group bg-gray-8 flex h-full flex-col overflow-hidden rounded-lg">
+        <div className="group bg-gray-8 flex h-full flex-col overflow-hidden border-1 border-black rounded-lg">
           <img
             src={image}
             alt={title}
@@ -50,7 +50,7 @@ export const ProjectCard = ({
               {tag.map((tags, index) => (
                 <span
                   key={index}
-                  className="bg-tag-backgroud/50 text-tag-text rounded-full px-2.5 py-1 text-xs font-semibold"
+                  className="bg-tag-backgroud/50 text-tag-text rounded-full px-2.5 py-1 text-xs font-semibold cursor-default"
                 >
                   {tags}
                 </span>
