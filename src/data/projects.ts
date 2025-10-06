@@ -5,8 +5,7 @@ const projects = [
     description: 'Desenvolvimento de uma página de delivery de restaurantes.',
     tag: ['React', 'Redux', 'TypeScript', 'Route-DOM'],
     demo: 'https://efood-topaz-omega.vercel.app/',
-    repositorie: 'https://github.com/YuriGConstantino/efood',
-    delay: 0.1
+    repositorie: 'https://github.com/YuriGConstantino/efood'
   },
   {
     image: '../../../public/image/Contacts-List.png',
@@ -15,8 +14,7 @@ const projects = [
       'Desenvolvimento de uma lista de contatos feita em React e TypeScript.',
     tag: ['React', 'Redux', 'TypeScript', 'Route-DOM'],
     demo: 'https://contacts-list-livid.vercel.app/',
-    repositorie: 'https://github.com/YuriGConstantino/Contacts-List',
-    delay: 0.2
+    repositorie: 'https://github.com/YuriGConstantino/Contacts-List'
   },
   {
     image: '../../../public/image/Clone-Crunchyroll.png',
@@ -25,8 +23,7 @@ const projects = [
       'Desenvolvimento de uma landing page clone de um site de streaming.',
     tag: ['HTML', 'SASS', 'JavaScript', 'Gulp'],
     demo: 'https://curso-ebac-frontend-projeto4.vercel.app/',
-    repositorie: 'https://github.com/YuriGConstantino/Clone-Crunchyroll',
-    delay: 0.3
+    repositorie: 'https://github.com/YuriGConstantino/Clone-Crunchyroll'
   },
   {
     image: '../../../public/image/Landing-Page-com-Bootstrap.png',
@@ -36,8 +33,7 @@ const projects = [
     tag: ['HTML', 'Bootstrap', 'JavaScript'],
     demo: 'https://curso-ebac-frontend-projeto3.vercel.app/',
     repositorie:
-      'https://github.com/YuriGConstantino/Landing-Page-com-Bootstrap',
-    delay: 0.4
+      'https://github.com/YuriGConstantino/Landing-Page-com-Bootstrap'
   }
 ]
 
