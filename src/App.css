@@ -6,37 +6,45 @@ html {
 }
 
 @theme {
-  --color-accent: #38bdf8;
-  --color-accent-focus: #00a6f4;
-  --color-background: #111827;
-  --color-secondary-background: #000000;
-  --color-primary-color: #fff;
-  --color-primary-accent-color: #fff;
-  --color-input-color: #d1d5dc;
-  --color-secondary-color: #99a1af;
-  --color-gray-7: #364153;
-  --color-gray-8: #1e2939;
-  --color-gray-9: #101828;
-  --color-tag-backgroud: #024a70;
-  --color-tag-text: #74d4ff;
-  --color-card-link: #00bcff;
+  --color-accent: var(--color-sky-400);
+  --color-accent-focus: var(--color-sky-500);
+  --color-background: var(--color-slate-900);
+  --color-secondary-background: var(--color-black);
+  --color-primary-color: var(--color-white);
+  --color-primary-accent-color: var(--color-sky-400);
+  --color-input-color: var(--color-gray-300);
+  --color-secondary-color: var(--color-gray-400);
+  --color-card-surface: var(--color-gray-800);
+  --color-card-accent: var(--color-gray-700);
+  --color-input: var(--color-gray-800);
+  --color-input-accent: var(--color-gray-700);
+  --color-header: var(--color-gray-900);
+  --color-header-line: var(--color-gray-700);
+  --color-btn-text: var(--color-gray-900)
+  --color-tag-backgroud: var(--color-sky-900);
+  --color-tag-text: var(--color-sky-300);
+  --color-card-link: var(--color-sky-400);
 }
 
 .light {
-  --color-accent: #d97706;
-  --color-accent-focus: #bb4d00;
-  --color-background: #fffbeb;
-  --color-secondary-background: #fef3c6;
-  --color-primary-color: #57534e;
-  --color-primary-accent-color: #fff;
-  --color-input-color: #000000;
-  --color-secondary-color: #3c3c3c;
-  --color-gray-7: #d97706;
-  --color-gray-8: #f3f4f6;
-  --color-gray-9: #fff;
-  --color-tag-text: #973c00;
-  --color-card-link: #973c00;
-  --color-tag-backgroud: #fef3c6;
+  --color-accent: var(--color-orange-400);
+  --color-accent-focus: var(--color-orange-500);
+  --color-background: var(--color-yellow-50);
+  --color-secondary-background: var(--color-yellow-100);
+  --color-primary-color: var(--color-stone-600);
+  --color-primary-accent-color: var(--color-stone-800);
+  --color-input-color: var(--color-black);
+  --color-secondary-color: var(--color-neutral-700);
+  --color-card-surface: var(--color-gray-50);
+  --color-card-accent: var(--color-orange-400);
+  --color-input: var(--color-gray-50);
+  --color-input-accent: var(--color-gray-700);
+  --color-header: var(--color-white);
+  --color-header-line: var(--color-orange-700);
+  --color-btn-text: var(--color-white);
+  --color-tag-text: var(--color-orange-800);
+  --color-card-link: var(--color-orange-800);
+  --color-tag-backgroud: var(--color-yellow-200);
 }
 
 body {

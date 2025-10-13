@@ -21,7 +21,7 @@ export const Card = ({ src, skill, delay }: Props) => {
         threshold={0.3}
         delay={delay}
       >
-        <div className="bg-gray-8 hover:bg-gray-7/50 flex flex-col items-center justify-center gap-2 rounded-lg p-6 transition-all duration-300">
+        <div className="bg-card-surface hover:bg-card-accent/50 flex flex-col items-center justify-center gap-2 rounded-lg p-6 transition-all duration-300">
           <img src={src} alt={skill} className="h-12 w-12" />
           <span className="text-primary-color font-medium cursor-default">{skill}</span>
         </div>

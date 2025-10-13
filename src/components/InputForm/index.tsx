@@ -14,7 +14,7 @@ export const InputForm = ({ label, type, name }: Props) => {
         <textarea
           id={name}
           name={name}
-          className="bg-gray-8 border-gray-7 focus:border-accent-focus text-primary-color h-50 w-full resize-none rounded-lg border px-4 py-3 focus:outline-none"
+          className="bg-input border-input-accent focus:border-accent-focus text-primary-color h-50 w-full resize-none rounded-lg border px-4 py-3 focus:outline-none"
           required
         ></textarea>
       </div>
@@ -30,7 +30,7 @@ export const InputForm = ({ label, type, name }: Props) => {
           type={type}
           id={name}
           name={name}
-          className="bg-gray-8 border-gray-7 focus:border-accent-focus text-primary-color w-full rounded-lg border px-4 py-3 focus:outline-none"
+          className="bg-input border-input-accent focus:border-accent-focus text-primary-color w-full rounded-lg border px-4 py-3 focus:outline-none"
           required
         />
       </div>

@@ -39,7 +39,7 @@ export const Contact = () => {
                 <div className="text-center">
                   <Button
                     type="submit"
-                    className="bg-accent text-gray-9 hover:bg-accent-focus transform rounded-lg px-8 py-3 font-bold transition-transform duration-300 hover:scale-105"
+                    className="bg-accent text-btn-text hover:bg-accent-focus transform rounded-lg px-8 py-3 font-bold transition-transform duration-300 hover:scale-105"
                   >
                     Enviar Mensagem
                   </Button>

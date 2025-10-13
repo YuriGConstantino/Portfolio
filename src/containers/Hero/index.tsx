@@ -30,17 +30,18 @@ export const Hero = () => {
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Button
             type="link"
-            href="#projects"
-            className="bg-accent text-gray-9 hover:bg-accent-focus transform rounded-lg px-8 py-3 font-bold transition-transform duration-300 hover:scale-105"
+            href="#contact"
+            className="bg-accent text-btn-text hover:bg-accent-focus transform rounded-lg px-8 py-3 font-bold transition-transform duration-300 hover:scale-105"
           >
-            Ver Projetos
+            Entrar em Contato
           </Button>
           <Button
             type="link"
-            href="#contact"
-            className="bg-gray-8 border-gray-7 hover:bg-gray-7 hover:text-primary-accent-color text-primary-color transform rounded-lg border px-8 py-3 font-bold transition-transform duration-300 hover:scale-105"
+            download={true}
+            href="../../../public/files/CV Yuri Constantino.docx.pdf"
+            className="bg-input border-input-accent hover:bg-input hover:text-primary-accent-color text-primary-color transform rounded-lg border px-8 py-3 font-bold transition-transform duration-300 hover:scale-105"
           >
-            Entrar em Contato
+            Baixe meu Curriculo
           </Button>
         </div>
         <div className="mt-12 flex justify-center gap-6">

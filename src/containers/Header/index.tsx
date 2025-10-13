@@ -13,7 +13,7 @@ export const Header = ({ theme, chargeTheme }: Props) => {
   const [mobileMenu, setMobileMenu] = useState(false)
   return (
     <>
-      <header className="border-gray-7/50 bg-gray-9/80 fixed top-0 right-0 left-0 z-10 border-b backdrop-blur-sm">
+      <header className="border-header-line/50 bg-header/80 fixed top-0 right-0 left-0 z-10 border-b backdrop-blur-sm">
         <div className="container mx-auto flex items-center justify-between px-6 py-4">
           <a
             href="#"
