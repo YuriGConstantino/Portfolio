@@ -38,7 +38,7 @@ export const Hero = () => {
           <Button
             type="link"
             download={true}
-            href="/files/CV Yuri Constantino.pdf"
+            href="files/CV Yuri Constantino.pdf"
             className="bg-input border-input-accent hover:bg-input hover:text-primary-accent-color text-primary-color transform rounded-lg border px-8 py-3 font-bold transition-transform duration-300 hover:scale-105"
           >
             Baixe meu Curriculo

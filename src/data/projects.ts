@@ -1,6 +1,6 @@
 const projects = [
   {
-    image: '/image/Efood.png',
+    image: 'image/Efood.png',
     title: 'EFood',
     description: 'Desenvolvimento de uma página de delivery de restaurantes.',
     tag: ['React', 'Redux', 'TypeScript', 'Route-DOM'],
@@ -8,7 +8,7 @@ const projects = [
     repositorie: 'https://github.com/YuriGConstantino/efood'
   },
   {
-    image: '/image/Contacts-List.png',
+    image: 'image/Contacts-List.png',
     title: 'Contacts List',
     description:
       'Desenvolvimento de uma lista de contatos feita em React e TypeScript.',
@@ -17,7 +17,7 @@ const projects = [
     repositorie: 'https://github.com/YuriGConstantino/Contacts-List'
   },
   {
-    image: '/image/Clone-Crunchyroll.png',
+    image: 'image/Clone-Crunchyroll.png',
     title: 'Clone Crunchyroll',
     description:
       'Desenvolvimento de uma landing page clone de um site de streaming.',
@@ -26,7 +26,7 @@ const projects = [
     repositorie: 'https://github.com/YuriGConstantino/Clone-Crunchyroll'
   },
   {
-    image: '/image/Landing-Page-com-Bootstrap.png',
+    image: 'image/Landing-Page-com-Bootstrap.png',
     title: 'Landing Page com Bootstrap',
     description:
       'Desenvolvimento de uma landing page responsiva para um site fictício de venda de jogos.',
