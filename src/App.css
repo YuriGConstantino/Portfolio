@@ -20,8 +20,8 @@ html {
   --color-input-accent: var(--color-gray-700);
   --color-header: var(--color-gray-900);
   --color-header-line: var(--color-gray-700);
-  --color-btn-text: var(--color-gray-900)
-  --color-tag-backgroud: var(--color-sky-900);
+  --color-btn-text: var(--color-gray-900);
+  --color-tag: var(--color-sky-900);
   --color-tag-text: var(--color-sky-300);
   --color-card-link: var(--color-sky-400);
 }
@@ -42,6 +42,7 @@ html {
   --color-header: var(--color-white);
   --color-header-line: var(--color-orange-700);
   --color-btn-text: var(--color-white);
+  --color-tag: var(--color-orange-300);
   --color-tag-text: var(--color-orange-800);
   --color-card-link: var(--color-orange-800);
   --color-tag-backgroud: var(--color-yellow-200);

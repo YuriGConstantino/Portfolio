@@ -50,7 +50,7 @@ export const ProjectCard = ({
               {tag.map((tags, index) => (
                 <span
                   key={index}
-                  className="bg-tag-backgroud/50 text-tag-text cursor-default rounded-full px-2.5 py-1 text-xs font-semibold"
+                  className="bg-tag/50 text-tag-text cursor-default rounded-full px-2.5 py-1 text-xs font-semibold"
                 >
                   {tags}
                 </span>
