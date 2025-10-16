@@ -13,7 +13,7 @@ export const Skills = () => {
         duration={900}
         easing="ease-out"
         initialOpacity={0}
-        threshold={0.7}
+        threshold={0.15}
       >
         <section id="skills" className="section-fade-in py-20 md:py-32">
           <div className="container mx-auto px-6 text-center">

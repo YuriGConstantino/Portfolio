@@ -13,7 +13,7 @@ export const MyProjects = () => {
         duration={900}
         easing="ease-out"
         initialOpacity={0}
-        threshold={0.3}
+        threshold={0.2}
       >
         <section
           id="projects"
