@@ -27,25 +27,24 @@ html {
 }
 
 .light {
-  --color-accent: var(--color-orange-400);
-  --color-accent-focus: var(--color-orange-500);
-  --color-background: var(--color-yellow-50);
-  --color-secondary-background: var(--color-yellow-100);
-  --color-primary-color: var(--color-stone-600);
-  --color-primary-accent-color: var(--color-stone-800);
+  --color-accent: var(--color-sky-800);
+  --color-accent-focus: var(--color-sky-500);
+  --color-background: var(--color-gray-100);
+  --color-secondary-background: var(--color-white);
+  --color-primary-color: var(--color-black);
+  --color-primary-accent-color: var(--color-sky-800);
   --color-input-color: var(--color-black);
-  --color-secondary-color: var(--color-neutral-700);
-  --color-card-surface: var(--color-gray-50);
-  --color-card-accent: var(--color-orange-400);
-  --color-input: var(--color-gray-50);
+  --color-secondary-color: var(--color-gray-700);
+  --color-card-surface: var(--color-gray-200);
+  --color-card-accent: var(--color-gray-600);
+  --color-input: var(--color-white);
   --color-input-accent: var(--color-gray-700);
   --color-header: var(--color-white);
-  --color-header-line: var(--color-orange-700);
-  --color-btn-text: var(--color-white);
-  --color-tag: var(--color-orange-300);
-  --color-tag-text: var(--color-orange-800);
-  --color-card-link: var(--color-orange-800);
-  --color-tag-backgroud: var(--color-yellow-200);
+  --color-header-line: var(--color-gray-700);
+  --color-btn-text: var(--color-gray-100);
+  --color-tag: var(--color-sky-800);
+  --color-tag-text: var(--color-sky-50);
+  --color-card-link: var(--color-sky-700);
 }
 
 body {
